@@ -25,6 +25,9 @@ jobs:
     
       - name: Install replicate
         run: pip install replicate
+
+      - name: Delete unnecessary tools
+        run: rm -rf /opt/hostedtoolcache
         
 
       - name: Push to Replicate
