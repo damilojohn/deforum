@@ -32,6 +32,6 @@ jobs:
 
       - name: Push to Replicate
         run: |
-          cog push r8.im/damilojohn/deforum
+          cog push r8.im/damilojohn/deforum_x
         env:
           token: ${{ secrets.REPLICATE_API_TOKEN }}
